@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.table{
+    overflow-x: auto;
+    width: 500px;
+    margin: 25px auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  td,
+  th {
+    border: 2px solid black;
+    /* background: greenyellow; */
+    text-align: center;
+    padding: 12px 6px;
+    font-size: large;
+    /* font-weight: bold; */
+    border-bottom: 1px solid black;
+  }
+  th {
+    height: 35px;
+  }
+  tr:nth-child(odd):hover {
+    background-color: coral;
+  }
+  /* form */
+  .sing{
+    width: 70%;
+    margin: 0 auto;
+    background-color:  #f2f2f2;
+    border: 1px solid azure;
+    border-radius: 10px;
+  }
+  fieldset{
+    border: 1px solid azure;
+    border-radius: 5px;
+    
+  }
+  input {
+    border-radius: 5px;
+
+  }
+  input[type=text]  ,input[type=email] , input[type=password],input[type=submit],input[type=date]{
+    width: 100%;
+    display: inline-bloc;
+    padding: 12px 6px;
+    font-size: 25px;
+    margin: 8px 0;
+    outline: none;
+   
+  }
+  input[type=text]{
+    width: 120px;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=text]:focus{
+    width: 100%;
+  }
+  legend{
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+  }
+  label{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  input[type=submit]{
+    background-color:  #4CAF50;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  input[type=submit]:hover{
+    background:  #45a049;
+    color: crimson;
+  }
+  input[type=date]{
+    font-size: 25px;
+  }

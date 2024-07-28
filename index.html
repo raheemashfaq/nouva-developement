@@ -5,93 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="icon" href="./assets/projector.jpeg" />
-    <style>
-      table {
-        /* border: 2px solid black; */
-        border-collapse: collapse;
-      }
-      td,
-      th {
-        border: 2px solid black;
-      }
-      fieldset {
-        background: chartreuse;
-        border: 2px solid red;
-      }
-      input {
-        border-radius: 5px;
-      }
-    </style>
+    <link rel="stylesheet" href="./Stylesheet/style.css" />
+    <style></style>
   </head>
   <body>
-    <table>
-      <thead>
-        <th>Name</th>
-        <th>Class</th>
-        <th>Grade</th>
-        <th>Subject</th>
-      </thead>
-      <tr>
-        <td>Abdul</td>
-        <td>4th Year</td>
-        <td>Good</td>
-        <td rowspan="3">Computer Science</td>
-      </tr>
-      <tr>
-        <td>Raheem</td>
-        <td>4th Year</td>
-        <td>Good</td>
-        <!-- <td>IT</td> -->
-      </tr>
-      <tr>
-        <td>Zain</td>
-        <td>4th Year</td>
-        <td>Best</td>
-        <!-- <td>General Science</td> -->
-      </tr>
-    </table>
-    <hr />
-    <form>
-      <fieldset>
-        <legend>Sign_UP Page</legend>
-        <label for="fname">First Name:</label>
-        <input type="text" name="fname" id="fname" required />
-        <br />
-        <br />
-        <label for="lname">Last Name:</label>
-        <input type="text" name="lname" id="lname" required />
-        <br />
-        <br />
-        Gender: <label for="male">Male</label>
-        <input type="radio" name="gender" id="male" />
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female" />
-        <br />
-        <br />
-        Skills: <label for="html">HTML:5</label>
-        <input type="checkbox" value="html" id="html" />
-        <label for="react">React JS</label>
-        <input type="checkbox" id="react" value="react" />
-        <label for="css">CSS</label>
-        <input type="checkbox" id="css" value="css" />
-        <label for="js">JavaScript</label>
-        <input type="checkbox" id="js" value="js" />
-        <br />
-        <br />
-        <label for="dob">DOB:</label>
-        <input type="date" name="dob" id="dob" required />
-        <br />
-        <br />
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" />
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password" required />
-        <br />
-        <br />
-        <input type="submit" value="Submit" />
-      </fieldset>
-    </form>
-    <br />
-    <hr />
+    <div class="table">
+      <table>
+        <thead>
+          <th>Name</th>
+          <th>Class</th>
+          <th>Grade</th>
+          <th>Subject</th>
+        </thead>
+        <tr>
+          <td>Abdul</td>
+          <td>4th Year</td>
+          <td>Good</td>
+          <td rowspan="3">Computer Science</td>
+        </tr>
+        <tr>
+          <td>Raheem</td>
+          <td>4th Year</td>
+          <td>Good</td>
+          <!-- <td>IT</td> -->
+        </tr>
+        <tr>
+          <td>Zain</td>
+          <td>4th Year</td>
+          <td>Best</td>
+          <!-- <td>General Science</td> -->
+        </tr>
+      </table>
+    </div>
+    <div class="sing">
+      <form>
+        <fieldset>
+          <legend><h1>Sign_UP Page</h1></legend>
+          <label for="fname">First Name:</label>
+          <input type="text" name="fname" id="fname" required />
+          <br />
+          <br />
+          <label for="lname">Last Name:</label>
+          <input type="text" name="lname" id="lname" required />
+          <br />
+          <br />
+          <label for="">Gender:</label>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" />
+          <br />
+          <br />
+          <label for="">Skills:</label> <label for="html">HTML:5</label>
+          <input type="checkbox" value="html" id="html" />
+          <label for="react">React JS</label>
+          <input type="checkbox" id="react" value="react" />
+          <label for="css">CSS</label>
+          <input type="checkbox" id="css" value="css" />
+          <label for="js">JavaScript</label>
+          <input type="checkbox" id="js" value="js" />
+          <br />
+          <br />
+          <label for="dob">DOB:</label>
+          <input type="date" name="dob" id="dob" required />
+          <br />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" required />
+          <br />
+          <br />
+          <input type="submit" id="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </div>
   </body>
 </html>
